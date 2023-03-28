@@ -1,5 +1,5 @@
 # MathematicaQNM
-Interpolate the QNM frequencies for Kerr BHs from the pre-computed data from Berti et al for a ready-to-use Mathematica implementation, which I found lacking in the BHPT. 
+Interpolate the QNM frequencies for Kerr BHs from the pre-computed data from [Berti et al](https://arxiv.org/abs/0905.2975) for a ready-to-use Mathematica implementation, which I found lacking in the BHPT. 
 
 Please, file an Issue or a Pull Request if you find any Bug or want to help with the development.
 
