@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-BeginPackage["KerrQNM`"];
+BeginPackage["KerrQNMs`"];
 
 
 KerrQNM::usage = "Reads data from Berti et al repositories, and constructs interpolating functions. Inputs: l (orbital number), m (azimuthal number), n (overtone index: fundamental mode is n = 1). "
