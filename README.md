@@ -13,9 +13,23 @@ Please, file an Issue or a Pull Request if you find any Bug or want to help with
 1.-Clone the repository and place it in any directory within Mathematica's $Path (if you don't know which are those, you can run ``Echo[$Path]``. 
 2.-Copy or move the file "KerrQNMs.wl" to the same level as the repository. Example:
 
-----/Users/MyName/Library/Mathematica/Applications/---MathematicaQNM/Example.nb
-                                                                     ...
-                                                   ---KerrQNMs.wl
+```bash
+|-- Applications
+|   |-- KerrQNMs.wl 
+|   |-- MathematicaQNM
+|   |   |-- Example.nb
+|   |   |-- LICENSE
+|   |   |-- UnzipQNMs.py
+|   |   |-- CompressedData
+|   |   `-- QNMData
+|   |       |-- l2
+|   |       |-- l3
+|   |       |-- l4
+|   |       |-- l5
+|   |       |-- l6
+|   |       `-- l7
+
+```
                                                    
 # Usage
 
