@@ -6,7 +6,12 @@ if not os.path.exists("QNMData"):
     os.makedirs("QNMData")
 
 URLs = {
-    2: "https://github.com/jredondoyuste/MathematicaQNM/blob/main/l2.zip"
+    2: "https://github.com/jredondoyuste/MathematicaQNM/blob/main/CompressedData/l2.zip",
+    3: "https://github.com/jredondoyuste/MathematicaQNM/blob/main/CompressedData/l3.zip",
+    4: "https://github.com/jredondoyuste/MathematicaQNM/blob/main/CompressedData/l4.zip",
+    5: "https://github.com/jredondoyuste/MathematicaQNM/blob/main/CompressedData/l5.zip",
+    6: "https://github.com/jredondoyuste/MathematicaQNM/blob/main/CompressedData/l6.zip",
+    7: "https://github.com/jredondoyuste/MathematicaQNM/blob/main/CompressedData/l7.zip"
 }    
 
 # Download the files from the URLs, unzip, paste in QNMData/ and delete the .zip
