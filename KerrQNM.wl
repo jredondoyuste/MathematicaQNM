@@ -9,13 +9,10 @@ KerrQNM::usage = "Reads data from Berti et al repositories, and constructs inter
 Begin["`Private`"];
 
 
-packageDirectory = DirectoryName[FindFile["KerrQNM`"]];
-SetDirectory[packageDirectory];
+dirroot = FindFile["KerrQNMs`"];
+packageDir = DirectoryName[dirroot]<>"/MathematicaQNM"
+SetDirectory[packageDir];
 Run["./UnzipQNMs.py"];
-
-
-FileName[l_Integer, m_Integer, n_Integer] := 
-"QNMData/l"<>ToString[l]<>"/n"<>ToString[n]<>"l"<>ToString[l]<>"m"<>ToString[m]<>".dat";
 
 
 KerrQNM[l_, m_, n_]:=Module[{temp, \[Omega], i\[Omega]},
@@ -24,6 +21,10 @@ temp = Import[FileName[l,m,n]];
 i\[Omega]=Interpolation[\[Omega]];
 i\[Omega]
 ];
+
+
+FileName[l_Integer, m_Integer, n_Integer] := 
+"QNMData/l"<>ToString[l]<>"/n"<>ToString[n]<>"l"<>ToString[l]<>"m"<>ToString[m]<>".dat";
 
 
 End[];
