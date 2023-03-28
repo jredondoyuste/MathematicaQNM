@@ -9,7 +9,8 @@ KerrQNM::usage = "Reads data from Berti et al repositories, and constructs inter
 Begin["`Private`"];
 
 
-SetDirectory[NotebookDirectory[]];
+packageDirectory = DirectoryName[FindFile["KerrQNM`"]];
+SetDirectory[packageDirectory];
 Run["./UnzipQNMs.py"];
 
 
